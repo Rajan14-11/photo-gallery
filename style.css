@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image : linear-gradient(rgb(247, 247, 192),rgb(238, 184, 184));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vw;
+    position: relative;
+}
+.photo{
+    width: 60%;
+    margin: auto;
+    /* border: 5px solid black; */
+    overflow: hidden;
+}
+.photoslider{
+    display: flex;
+    width: 100%;
+    height : 30%
+}
+.photoslider img{
+    width: 100%;
+    height: 30%;
+}
+
+button img{
+   filter: invert();
+   width: 1rem;
+}
+
+#nextbtn{
+    position: absolute;
+    right: 10%;
+    top: 18%;
+}
+#prevbtn{
+    position: absolute;
+    left: 10%;
+    top: 18%;
+}
+
+.photoshow{
+    display: flex;
+    width: 107vh;
+ margin-top: 2rem;
+ align-items: center;
+ /* justify-content: center; */
+}
+.photoshow img{
+    width: 40%;
+    margin: 1rem;
+}
